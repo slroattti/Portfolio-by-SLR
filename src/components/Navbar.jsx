@@ -13,12 +13,12 @@ function Navbar() {
 
   return (
     <>
-      <div className='absolute top-4 right-4 cursor-pointer block lg:hidden'>
+      <div className='absolute top-4 right-4 cursor-pointer block md:hidden'>
         <FaBars onClick={() => setFabars(!fabars)} className='hover:border-white hover:border-2 text-white w-[2.5rem] h-[2.5rem] p-1 hover:rounded-lg' />
       </div>
-      <div className={`px-[5rem] lg:px-[8rem] h-[5rem] lg:h-[5rem] bg-gradient-to-r from-violet-500 to-fuchsia-500 font-mono ${fabars ? 'h-[14rem]' : 'block'}`}>
-        <div className={`flex flex-col lg:h-[5rem] lg:flex lg:flex-row lg:justify-center lg:items-center lg:justify-between ${fabars ? 'w-full lg:h-[5rem] flex justify-center items-center' :'hidden'}`}>
-          <div className="Logo text-center hidden lg:flex lg:justify-center">
+      <div className={`px-[5rem] lg:px-[8rem] h-[5rem] md:h-[16rem] lg:h-[5rem] bg-gradient-to-r from-violet-500 to-fuchsia-500 font-mono ${fabars ? 'h-[16rem]' : 'block'}`}>
+        <div className={`flex flex-col h-[16rem] lg:h-[5rem] md:flex lg:flex-row lg:justify-center lg:items-center lg:justify-between ${fabars ? 'w-full lg:h-[5rem] flex justify-center items-center' :'hidden'}`}>
+          <div className="Logo text-center hidden md:flex md:justify-center mt-[1rem] lg:mt-0">
               <Link className='w-full hover:shadow-xl hover:shadow-fuchdsia hover:border-b-2 hover:border-fuchsia-600' to="/"><h2 className='text-3xl text-[#ffff]'>Port<span className='pr-2 pl-1 italic text-red-600'>folio</span><strong className='text-4xl text-[#9237BD]'>SLRR</strong></h2></Link>
           </div>
           <nav className='h-[14rem] lg:h-[5rem] flex justify-center text-center flex-col lg:flex-row lg:justify-center lg:items-center text-[20px] font-bold uppercase'>

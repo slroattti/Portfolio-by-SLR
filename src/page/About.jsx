@@ -10,7 +10,7 @@ function About() {
     <h1 className='flex justify-center text-3xl lg:text-5xl font-mono font-bold text-[#717171] my-[2rem]'>-About Me-</h1>
     <div className='text-center sm:text-center md:text-left lg:text-left flex flex-col sm:flex-col md:flex-row lg:flex-row flex justify-between justify-center px-[4rem] font-mono'>
         <div className="box_r w-full flex justify-center lg:justify-start lg:ml-3 my-4">
-            <img src={myPhoto} alt={"my Photo"} className='w-[16rem] h-[20rem] rounded-3xl hover:scale-125 shadow-xl shadow-fuchsia-300'/>
+            <img src={myPhoto} alt={"my Photo"} className='w-[14rem] h-[18rem] md:w-[16rem] md:h-[20rem] rounded-3xl hover:drop-shadow-lg shadow-lg'/>
         </div>
         <div className='w-full h-full'>
           <div className='mt-[2rem] shadow-lg rounded-3xl'>

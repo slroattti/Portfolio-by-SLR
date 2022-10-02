@@ -8,15 +8,15 @@ import iconTag from '../assets/Image icon/tag.png'
 function Home() {
   return (
     <>
-    <h1 className='flex justify-center text-3xl md:text-5xl font-mono font-bold text-[#717171] my-[2rem]'>-Home-</h1>
+    <h1 className='w-full flex justify-center text-3xl md:text-5xl font-mono font-bold text-[#717171] my-[2rem]'>-Home-</h1>
     
-    <div className='text-center md:text-left lg:text-left flex flex-col md:flex-row lg:flex-row justify-between'>
+    <div className='w-full text-center md:text-left lg:text-left flex flex-col md:flex-row lg:flex-row justify-between'>
       <div className='w-full flex justify-center md:justify-start'>
         <div className="box_r mb-6 px-[4rem] py-[2rem] font-mono">
-          <div className='w-[22rem] shadow-lg rounded-3xl'>
-            <span>&nbsp;&nbsp; Hi!, I'm SLRR</span>
-            <h1 className='text-5xl font-bold text-[#9237BD] relative h-[10rem] px-2'>Font-End <br /> &nbsp;&nbsp; Developer
-              <img src={iconTag} alt="icon tag dev" className='w-[3.5rem] absolute bottom-[3.2rem] left-5'/>
+          <div className='shadow-lg rounded-3xl'>
+            <span className=''>&nbsp;&nbsp; Hi!, I'm SLRR</span>
+            <h1 className='text-4xl lg:text-5xl font-bold text-[#9237BD] relative h-[10rem] px-2 pt-[.6rem]'>Font-End <br /> &nbsp;&nbsp; Developer
+              <img src={iconTag} alt="icon tag dev" className='w-[3rem] lg:w-[3.5rem] absolute bottom-[4rem] lg:bottom-[3rem] left-5'/>
             </h1>
           </div>
           <Link to="/About" className='inline-block pt-[3.5rem]'>
